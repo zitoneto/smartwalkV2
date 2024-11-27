@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="" href="img/page icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>SmartWalk!</title>
+</head>
+<body class="container">
+    <header class="welcome">
+        <div class="brand">
+            <h1><a href="#">SmartWalk!</a></h1>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Home</a></li>
+                    <li><a href="#sobre-nos">Quem somos?</a></li>
+                    <li><a href="#sobre-projeto">O Projeto</a></li>
+                    <li><a href="#como-faremos">Como?</a></li>
+                    <li><a href="#contato">Contato</a></li>
+
+                    <!-- Modificação no código -->
+                    <li><a href="./login.html">Login</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="content" id="inicio">
+        <div class="home">
+            <div class="introduction">
+                <h1>Apresentando, SmartWalk!</h1>
+                <p>Uma ideia de locomoção acessível por grandes centros urbanos, conheça-nos!</p>
+            </div>
+            <div class="cellphone">
+                <picture>
+                    <img src="img/wheelchair.jpg" alt="">
+                </picture>
+            </div>
+        </div>
+        <section class="container about--us" id="sobre-nos">
+            <div class="content-about">
+                <h1>Sobre nós</h1>
+                <div class="hero">
+                    <picture class="our--team">
+                        <img src="img/team.png" alt="">
+                    </picture>
+                    <p>Somos estudantes de ADS/Sistemas da informação, atualmente no 2° semestre da UNIFAP-CE. Identificamos-nos como amantes da Tecnologia,
+                    e juntos criamos a estrutura desse projeto, onde será melhor desenvolvido na Semana de P.I, que será realizada na Universidade Paraíso-Ceará.</p>
+                </div>
+            </div>
+        </section>
+        <section class="container project" id="sobre-projeto">
+            <h1>Sobre o Projeto</h1>
+            <div class="content-project">
+                <p>Nosso objetivo com este projeto é simples: Acessibilidade e Tecnologia. Através de estudos de campo e na área da robótica, chegamos ao SmartWalk!
+                    Utilizando sensores baseados em arduino, nosso Software será capaz de mapear desníveis e buracos em ruas, e redirecionando o usuário para o caminho mais adequado.
+                </p>
+                <picture class="iot-pic">
+                    <img src="img/iot.png" alt="Internet of Things">
+                </picture>
+            </div>
+        </section>
+        <section class="container know-how" id="como-faremos">
+            <h1>Como faremos?</h1>
+            <div class="content-how">
+                <picture class="arduino">
+                    <img src="img/arduino.png" alt="">
+                </picture>
+                <p>Como podemos ver ao lado, temos um sistema arduino pronto para receber e perceber dados, além desse
+                    equipamento, serão usadas câmeras, colocadas no topo de áreas que cobrem o local, garantindo que todos
+                    os possíveis obstáculos sejam detectados e enviados ao usuário pelo aplicatido SmartWalk! via celular.
+                </p>
+            </div>
+        </section>
+        <section class="contact-us" id="contato">
+            <h1>Entre em contato</h1>
+            <div class="information">
+                <p>Ficou interessado? Insira seus dados para que possamos entrar em contato com você!</p>
+                <form action="get">
+                    <input type="text" placeholder="Insira seu nome">
+                    <input type="email" name="email" id="" placeholder="Insira seu email">
+                    <input type="button" value="Enviar" >
+                </form>
+            </div>            
+        </section>
+        <footer>
+            <p>Projeto Integrador/Front-End 2024.2 UNIFAP-CE</p>
+        </footer>
+    </main>
+</body>
+</html>
